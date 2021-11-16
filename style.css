@@ -4,20 +4,20 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.box-info {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.box-info img {
     width: 100%;
 }
-.aaa .more_inf {
+.box-info .more-info {
     font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
-    .aaa { 
+    .box-info { 
         text-align: center;
     }
 }
