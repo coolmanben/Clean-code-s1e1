@@ -3,15 +3,15 @@
 <head>
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" MEDIA="screen" charset="utf-8">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="body">
 <div class="box-info">
-  <img class="box-info-image" src="./eisenhower-matrix.jpg">
+  <img class="box-info-image" src="./eisenhower-matrix.jpg" alt="matrix">
   <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </div>
 <div class="main-page__centered">
-  <p id="new-task-sectiont">
+  <div id="new-task-sectiont">
     <label for="new-task" class="new-task-label">Add Item</label>
     <div class="task-row-wrapper">
       <input  id="new-task"
@@ -19,7 +19,7 @@
               type="text">
       <button class="button button-add">Add</button>
     </div>
-  </p>
+  </div>
   <h3 class="list-name">Todo</h3>
 <ul class="task-list" id="incomplete-tasks">
   <li class="list-item">
@@ -29,7 +29,7 @@
             class="task task-text task-text__hover">
     <button class="button button-edit">Edit</button>
     <button class="button button-delete">
-      <img class="button-image" src="./remove.svg">
+      <img class="button-image" src="./remove.svg" alt="remove">
     </button>
   </li>
   <li class="edit-mode list-item">
@@ -40,7 +40,7 @@
             class="task task-text task-text__hover">
     <button class="button button-edit">Save</button>
     <button class="button button-delete">
-      <img class="button-image" src="./remove.svg">
+      <img class="button-image" src="./remove.svg" alt="remove">
     </button>
   </li>
   </ul>
@@ -53,7 +53,7 @@
               class="task task-text task-text__hover">
       <button class="button button-edit button-hover">Edit</button>
       <button class="button button-delete">
-        <img class="button-image" src="./remove.svg">
+        <img class="button-image" src="./remove.svg" alt="remove">
       </button>
     </li>
   </ul>
