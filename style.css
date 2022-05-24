@@ -45,16 +45,16 @@
 }
 
 .task-list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .list-item, .list-name {
-    list-style:none;
+    list-style: none;
 }
 
 input, .button{
-    outline:none;
+    outline: none;
 }
 
 .button {
