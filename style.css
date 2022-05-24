@@ -45,7 +45,7 @@
     display: flex;
 }
 
-.task__list {
+.task-list {
     margin: 0;
     padding: 0px;
 }
@@ -149,7 +149,7 @@ input {
 }
 
 /* Completed */
-.task__list_completed {
+.task-list_completed {
     text-decoration: line-through;
     color: #888;
 }
